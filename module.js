@@ -73,9 +73,9 @@ const listar = () => {
         console.log(`${i + 1}.
         Nome do Curso: ${el.nomeCurso}
         Duração: ${el.duracaoCurso}
-        Professores: ${el.nomeProfessor}
-        Alunos: ${el.nomeAluno}
-        Matérias: ${el.nomeMateria}`);
+        Professores: ${el.professores}
+        Alunos: ${el.alunos}
+        Matérias: ${el.materias}`);
     });
 };
 
